@@ -1,43 +1,64 @@
-/* Your Styling */
-video{
+/********************
+OVERRIDE MEDIA ELEMENT PLAYER STYLING
+*******************/
 
-	border: 10px solid red;
+/* Wrapper container */
+.mejs-container,
+.mejs-overlay {
+	
+	/* Hack around Media Element Player */
+	width: 100% !important;
+}
+
+/* [] 1. Change overlayed play button */
+.mejs-378 .mejs-overlay-button {
+ 
+}
+
+/* [] 2. Control Wrapper Positioning */
+.mejs-378 .mejs-controls {
 
 }
 
-
-.mejs-treehouse .mejs-controls {
-  background: rgba(56,64,71,0.98);
-  height: 30px;
+/* [] 3. Play Button */
+.mejs-378 .mejs-controls .mejs-play button {
+	
 }
 
-.mejs-treehouse .mejs-controls .mejs-button button {
-  outline: none;
+/* [] 4. Current Time Display */
+.mejs-378 .mejs-controls .mejs-currenttime {
+	
 }
 
-.mejs-treehouse .mejs-controls .mejs-captions-button {
-  margin: 0 7px;
+/* [] 5. Rail: Current Loaded, To Load, & Background */
+.mejs-378 .mejs-controls div.mejs-time-rail {
+	
 }
 
-.mejs-treehouse .mejs-controls .mejs-captions-selector {
-  background: rgba(56,64,71,0.98);
-  width: 100px;
-  right: auto;
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: green;
 }
 
-.mejs-treehouse .mejs-controls .mejs-time-rail {
-  padding: 0;
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: red;
 }
 
-.mejs-treehouse .mejs-controls .mejs-time-rail span {
-  height: 100%;
-  border-radius: 0px;
+/* ADD MORE STYLING. MAKE IT YOUR OWN. */
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 769px) {
+	
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+}
 
-
-
-
-
-
-
+/* Mobile */
+@media (max-width: 480px) {
+}

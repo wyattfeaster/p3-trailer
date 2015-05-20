@@ -14,7 +14,9 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-img,video,audio, .mejs-container {
+img,
+video, 
+audio {
 	width: 100%;
 }
 
