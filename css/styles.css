@@ -46,6 +46,12 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
 
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current{
+
+background: green;
+
+}
+
 /********************
 MEDIA QUERIES
 *******************/
