@@ -134,6 +134,11 @@ a:visited{
 	font-size: 25px;
 }
 
+.mejs-container{
+
+	background: none;
+}
+
 /********************
 MEDIA QUERIES
 *******************/
