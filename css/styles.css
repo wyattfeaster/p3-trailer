@@ -1,6 +1,12 @@
 /********************
 OVERRIDE MEDIA ELEMENT PLAYER STYLING
 *******************/
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 
 /* Wrapper container */
 .mejs-container,
@@ -12,7 +18,7 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 
 /* [] 1. Change overlayed play button */
 .mejs-378 .mejs-overlay-button {
- 
+ 	
 }
 
 /* [] 2. Control Wrapper Positioning */
@@ -36,11 +42,11 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-	background: green;
+	background: black;
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: red;
+	background: green;
 }
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
@@ -52,6 +58,41 @@ background: green;
 
 }
 
+#mep_0{
+
+	min-height: 100vh;
+	min-width: 100%;
+}
+.mejs-378 video{
+
+	width: 100%;
+}
+
+.social{
+
+	background: black;
+	opacity: 0.5;
+	width: 100%;
+	z-index: 4;
+	position: fixed;
+	height: auto;
+
+}
+
+.social ul{
+
+	padding-right: 5%;
+}
+.social ul li{
+
+	display: inline;
+	color: white;
+	opacity: 1;
+	float: right;
+	padding-right: 1.5%;
+
+
+}
 /********************
 MEDIA QUERIES
 *******************/
