@@ -3,9 +3,12 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 *******************/
 html{
   height: 100%;
+
 }
 body {
   min-height: 100%;
+background: black;
+background-image: url('..img/alien.jpg');
 }
 
 /* Wrapper container */
@@ -82,16 +85,42 @@ background: green;
 .social ul{
 
 	padding-right: 5%;
-}
-.social ul li{
-
+	margin-left:auto;
+	margin-right: auto;
 	display: inline;
+}
+.social ul li
+{
+
+	display: inline-block;
+	height: 100%;
 	color: white;
 	opacity: 1;
-	float: right;
 	padding-right: 1.5%;
 
 
+
+
+}
+h1{
+
+	display: inline;
+	color:white;
+	opacity: 1;
+
+}
+
+a{
+color: white;
+font-style: none;
+
+
+}
+
+a:visited{
+
+	color:white;
+	font-style: none;
 }
 /********************
 MEDIA QUERIES
