@@ -21,6 +21,7 @@ min-height: 100%
 	
 	/* Hack around Media Element Player */
 	width: 100% !important;
+	background-image: url("../img/noise.gif");
 }
 
 /* [] 1. Change overlayed play button */
@@ -137,6 +138,15 @@ a:visited{
 .mejs-container{
 
 	background: none;
+}
+
+p {
+
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	opacity: 0.5;
+	text-align: center;
 }
 
 /********************
